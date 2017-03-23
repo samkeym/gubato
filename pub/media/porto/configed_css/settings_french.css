@@ -1,0 +1,119 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2017-03-23 07:43:49 */
+body.boxed {
+}
+@media (min-width: 768px) {
+    .page-layout-1column .product-info-main, .page-layout-2columns-left .product-info-main, .page-layout-2columns-right .product-info-main, .page-layout-3columns .product-info-main {
+        width: 49%;
+    }
+    .page-layout-1column .product.media, .page-layout-2columns-left .product.media, .page-layout-2columns-right .product.media, .page-layout-3columns .product.media {
+        width: 49%;
+    }
+}
+
+.page-header.type2 .block-search input{
+border-radius: 0;
+}
+.block-search {
+width: 550px;
+margin-left: 20px;
+}
+.logo{
+margin: 13px 0;
+}
+.nav-sections-item-content .navigation {
+display: none;
+}
+
+.homepage-bar .col-md-4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.owl-top-narrow .owl-theme .owl-controls {
+display: none;
+}
+#at4-share{
+top: 40% !important;
+}
+.filterproduct-title{
+color: #FCD204;
+}
+.price-box .price {
+    font-family: 'Oswald';
+    font-size: 15px;
+    letter-spacing: 0.005em;
+    color: #2b2b2d;
+    font-weight: 400;
+}
+.products-grid .product-item-details .product-item-actions .tocart {
+    text-transform: uppercase;
+    font-size: 12.53px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #6f6e6c;
+    line-height: 30px;
+    background-color: #f4f4f4;
+    border-color: #f4f4f4;
+}
+.products-grid:not(.side-list) .product-item .product-item-info .product.name a {
+    font-size: 12px;
+font-family: 'Open Sans';
+}
+.product.name a {
+    color: #165377;
+}
+.product-item-name, .product.name a {
+    font-weight: 400;
+}
+.page-header.type2  .panel.wrapper {
+
+color: #ffffff;
+font-weight: bold;
+}
+.filterproduct-title {
+color: #165377;
+}
+.page-header.type2{
+position: fixed;
+width: 100%;
+}
+.page-header.type2 .nav-sections {
+display: none;
+}
+.page-header.type2 .panel.header .header.links  li  a, .page-header.type2 .header.panel  .header.links  li  a{
+color: #ffffff;
+margin-right: 10px;
+}
+.page-header.type2 a, .page-header.type2 .custom-block a{
+color: #ffffff;
+font-weight: bold;
+}
+.page-header.type2 .custom-block{
+font-weight: bold;
+}
+.footer-bottom{
+display: none;
+}
+.page-header .switcher {
+    float: right;
+}
+#categories-btn{
+text-transform: uppercase;
+font-weight: bold;
+margin-left: 10px;
+color: #ffffff;
+background-color: #165377;
+border: 1px solid #ffffff;
+}
+.home-side-menu-type2 {
+    z-index: 1000;
+width: 250px;
+margin-top: 93px;
+border-right: 1px solid rgb(204, 204, 204);
+position: fixed;
+background-color: rgb(255, 255, 255);
+height: 84vh;
+overflow-y: scroll;
+}
