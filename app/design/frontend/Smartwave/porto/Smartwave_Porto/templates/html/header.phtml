@@ -231,7 +231,7 @@
     </div>
     <div class="header content">
     <?php echo $this->getChildHtml("logo"); ?>
-    <button id="categories-btn" class="btn btn-primary hidden-xs hidden-sm" onmouseover="categories()">Categories <i class="porto-icon-down-open"></i>
+    <button id="categories-btn" class="btn btn-primary hidden-xs hidden-sm"  onMouseOver="show_sidebar()" onMouseOut="hide_sidebar()" onclick="category_click()">Categories <i class="porto-icon-down-open"></i>
 </button>
     <?php echo $this->getChildHtml("minicart"); ?>
     <?php echo $this->getChildHtml("top.search"); ?>
